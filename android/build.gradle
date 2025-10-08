@@ -1,3 +1,5 @@
+package android
+
 group 'com.example.audio_tagger'
 version '1.0'
 
@@ -23,7 +25,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "com.example.audio_tagger"
-    compileSdkVersion 34
+    compileSdkVersion 36
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -31,7 +33,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 24
     }
 }
 
